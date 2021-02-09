@@ -6,17 +6,7 @@ hunt_me: Find Usernames Across The Social Networks Module
 This module contains the main logic to search for usernames at social
 networks.
 """
-echo ""
-echo " █████╗  ██╗ ██████╗ ███╗   ██╗███████╗    ██████╗ ██████╗ ███████╗███████╗ ██████╗██╗  ██╗███████╗██████╗ ";
-echo "██╔══██╗███║██╔═████╗████╗  ██║██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝██║  ██║██╔════╝██╔══██╗";
-echo "███████║╚██║██║██╔██║██╔██╗ ██║█████╗      ██████╔╝██████╔╝█████╗  █████╗  ██║     ███████║█████╗  ██████╔╝";
-echo "██╔══██║ ██║████╔╝██║██║╚██╗██║██╔══╝      ██╔══██╗██╔══██╗██╔══╝  ██╔══╝  ██║     ██╔══██║██╔══╝  ██╔══██╗";
-echo "██║  ██║ ██║╚██████╔╝██║ ╚████║███████╗    ██████╔╝██║  ██║███████╗███████╗╚██████╗██║  ██║███████╗██║  ██║";
-echo "╚═╝  ╚═╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝";
-echo ""                                                                                                         
-echo -e "${BLUE}                                  [!]   https://github.com/alonebreecher/hunt_me   [!]${NC}"
-echo -e "${GREEN}                                 [!]  THIS TOOL WAS MADE FOR EDUCATIONAL PURPOSES [!]${NC}"
-echo -e "${purpal}                                [/]       THIS TOOL IS MADE BY ALONEBRECHER      [/]"${NC}"
+
 import csv
 import os
 import platform
