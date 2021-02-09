@@ -15,6 +15,17 @@ import sys
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from time import monotonic
 
+import requests
+
+from requests_futures.sessions import FuturesSession
+from torrequest import TorRequest
+from result import QueryStatus
+from result import QueryResult
+from notify import QueryNotifyPrint
+from sites  import SitesInformation
+
+module_name = "hunt_me: Find Usernames Across Social Networks"
+__version__ = "0.14.0"
 logo = """\033[33m
  █████╗  ██╗ ██████╗ ███╗   ██╗███████╗    ██████╗ ██████╗ ███████╗███████╗ ██████╗██╗  ██╗███████╗██████╗ 
 ██╔══██╗███║██╔═████╗████╗  ██║██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝██║  ██║██╔════╝██╔══██╗
@@ -28,19 +39,6 @@ logo = """\033[33m
                             \033[91m[X]      Please Don't Use For illegal Activity            [X]
                             \033[34m[✔]   specialthanks to AN712U CYB12 5OU1 , A10N3 8633CH36 [✔]
 \033[97m """
-
-import requests
-
-from requests_futures.sessions import FuturesSession
-from torrequest import TorRequest
-from result import QueryStatus
-from result import QueryResult
-from notify import QueryNotifyPrint
-from sites  import SitesInformation
-
-module_name = "hunt_me: Find Usernames Across Social Networks"
-__version__ = "0.14.0"
-
 
 
 
