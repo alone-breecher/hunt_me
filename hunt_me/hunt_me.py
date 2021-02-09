@@ -24,6 +24,20 @@ from result import QueryResult
 from notify import QueryNotifyPrint
 from sites  import SitesInformation
 
+logo = """\033[33m
+ █████╗  ██╗ ██████╗ ███╗   ██╗███████╗    ██████╗ ██████╗ ███████╗███████╗ ██████╗██╗  ██╗███████╗██████╗ 
+██╔══██╗███║██╔═████╗████╗  ██║██╔════╝    ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝██║  ██║██╔════╝██╔══██╗
+███████║╚██║██║██╔██║██╔██╗ ██║█████╗      ██████╔╝██████╔╝█████╗  █████╗  ██║     ███████║█████╗  ██████╔╝
+██╔══██║ ██║████╔╝██║██║╚██╗██║██╔══╝      ██╔══██╗██╔══██╗██╔══╝  ██╔══╝  ██║     ██╔══██║██╔══╝  ██╔══██╗
+██║  ██║ ██║╚██████╔╝██║ ╚████║███████╗    ██████╔╝██║  ██║███████╗███████╗╚██████╗██║  ██║███████╗██║  ██║
+╚═╝  ╚═╝ ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+                                                                                                                                                                                                                                                                            
+                            \033[34m[✔] https://github.com/alonebreecher/a10n3_8633CH36       [✔]
+                            \033[34m[✔]                      Version 1.1.0                    [✔]
+                            \033[91m[X]      Please Don't Use For illegal Activity            [X]
+                            \033[34m[✔]   specialthanks to AN712U CYB12 5OU1 , A10N3 8633CH36 [✔]
+\033[97m """
+
 module_name = "hunt_me: Find Usernames Across Social Networks"
 __version__ = "0.14.0"
 
@@ -41,6 +55,8 @@ class hunt_meFuturesSession(FuturesSession):
         https://github.com/ross/requests-futures#working-in-the-background
 
         Keyword Arguments:
+        
+        
         self                   -- This object.
         method                 -- String containing method desired for request.
         url                    -- String containing URL for request.
