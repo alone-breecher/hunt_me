@@ -609,7 +609,7 @@ def main():
 
     # Run report on all specified users.
     for username in args.username:
-        results = sherlock(username,
+        results = hunt_me(username,
                            site_data,
                            query_notify,
                            tor=args.tor,
